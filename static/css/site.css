@@ -1,0 +1,28 @@
+body {
+    background-color: whitesmoke;
+    margin: 0px;
+    padding: 0px;
+}
+
+body h1 {
+    text-align: center;
+}
+
+.main_content {
+    background-color: whitesmoke;
+    margin: 0px;
+    padding: 0px 0px 50px;
+}
+
+footer {
+    background-color: #17a2b8;
+    border-top: 1px solid #000000;
+    box-shadow: 0 50vh 0 50vh #17a2b8;
+    margin-top: 50px;
+    padding: 30px;
+    text-align: center;
+}
+
+footer a {
+    color: #00005a;
+}
