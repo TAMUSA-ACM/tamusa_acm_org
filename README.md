@@ -1,48 +1,76 @@
-# TAMUSA-ACM Website
+# TAMUSA-ACM Website Repository
 
-## Project Overview
-Welcome to the `tamusa_acm_org` repository. This project is the home of the Texas A&M University-San Antonio's ACM (Association for Computing Machinery) chapter website. The website is built using the Flask micro-framework, featuring a responsive design with Bootstrap and custom CSS for a dynamic and engaging user interface. This project is a living testament to our passion for web development and design, aiming to provide an interactive platform for our members and visitors.
+## Overview
+
+Welcome to the official repository for the Texas A&M University-San Antonio ACM (Association for Computing Machinery) chapter website. This project is built using the Flask micro-framework, leveraging Bootstrap for responsive design and custom CSS to create a dynamic and engaging user interface. The website is designed to be a resource and community hub for web development and design enthusiasts at TAMUSA.
+
+### Project Structure
+
+The project is structured as follows:
+
+- `app/`: Contains the Flask application and the routing logic.
+- `templates/`: Holds the HTML files which are rendered by the Flask app.
+- `static/`: Stores static files like CSS, JS, and images used in the web application.
+- `config.py`: Configuration file for the Flask app.
+- `run.py`: The entry point for the Flask application.
 
 ## Setup and Installation
-To get this project up and running on your local machine, follow the steps below:
+
+To get this website running locally on your machine, you will need Python installed along with the Flask framework and other dependencies.
 
 ### Prerequisites
-Ensure you have the following installed on your local system:
-- Python 3.x
-- pip (Python package manager)
 
-### Installation
-1. Clone the repository to your local machine:
-   ```
-   git clone https://github.com/yourusername/tamusa_acm_org.git
-   ```
-2. Navigate to the project directory:
-   ```
-   cd tamusa_acm_org
-   ```
-3. Install the necessary dependencies:
-   ```
-   pip install -r requirements.txt
-   ```
-4. Run the application:
-   ```
-   python app.py
-   ```
+- Python 3.6+
+- pip (Python package installer)
+
+### Installation Steps
+
+1. **Clone the Repository**
+
+    ```bash
+    git clone https://github.com/your-username/tamusa_acm_org.git
+    cd tamusa_acm_org
+    ```
+
+2. **Setup a Virtual Environment** (Optional but recommended)
+
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    ```
+
+3. **Install Dependencies**
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4. **Run the Application**
+
+    ```bash
+    python run.py
+    ```
+
+    Visit `http://127.0.0.1:5000/` in your web browser to view the app.
 
 ## Usage
-Once you have the project running on your local machine, you can view the website by opening your web browser and navigating to `http://localhost:5000`.
 
-## Contribution Guidelines
-We welcome contributions from anyone passionate about web development and design. If you're interested in contributing, please follow the steps below:
+After installation, the web application will be accessible locally. You can navigate through various sections designed to provide information and resources related to web design and development. The UI is responsive, making it accessible on a variety of devices.
 
-1. Fork the project repository.
-2. Clone the forked repository to your local machine.
-3. Create a new branch for your feature or bug fix.
-4. Make your changes in your branch.
-5. Push your changes to your forked repository.
-6. Submit a pull request to the `tamusa_acm_org` repository.
+## Contributing
 
-Before submitting a pull request, please ensure your code adheres to our style guide and all tests pass.
+Contributions to the TAMUSA-ACM website are welcome! If you have suggestions for improvements or new features, feel free to fork the repository and submit a pull request.
+
+### Contribution Guidelines
+
+- **Code Style**: Follow the existing code style in the project. Use descriptive variable names and keep the code clean and well-commented.
+- **Commit Messages**: Write meaningful commit messages that clearly explain the changes you have made.
+- **Pull Requests**: Provide a description of the changes in the pull request. Link to any relevant issues addressed.
 
 ## License
-This project is licensed under the MIT License. For more details, please see the [LICENSE](LICENSE) file.
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details.
+
+---
+
+By contributing to the TAMUSA-ACM website repository, you agree to adhere to its code of conduct and the terms of its license. For any questions or to get more involved with the TAMUSA ACM chapter, please reach out via our official channels.
