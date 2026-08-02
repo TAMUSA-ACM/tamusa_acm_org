@@ -1,70 +1,79 @@
 ```markdown
-# TAMUSA ACM Chapter Official Website
+# tamusa_acm_org
 
-Welcome to the official repository for the TAMUSA ACM Chapter website. This project is built using Flask and Bootstrap to deliver a dynamic, responsive user interface alongside a scalable backend.
+Official website for the TAMUSA ACM chapter, built with Flask and Bootstrap for a dynamic, responsive UI and scalable backend.
 
 ## Project Overview
 
-The TAMUSA ACM Chapter website serves as the central hub for information, events, and resources related to the ACM chapter at Texas A&M University-San Antonio. It provides users with an interactive and user-friendly experience to engage with the chapter's activities and resources.
+The `tamusa_acm_org` repository hosts the official website for the Texas A&M University-San Antonio ACM chapter. This web application is designed to provide an engaging, user-friendly platform for students and faculty to access information about ACM events, resources, and membership. The application leverages Flask for its backend and Bootstrap for a modern, responsive UI, ensuring compatibility across various devices and screen sizes.
 
 ## Features
 
-- **Responsive Design**: Built with Bootstrap, ensuring compatibility across various devices and screen sizes.
-- **Dynamic Content**: Utilizes Flask for rendering dynamic pages based on user interactions and backend data.
-- **Scalable Architecture**: Designed with a microservice approach to easily integrate new features and services.
-- **User-Friendly Interface**: Clean and modern design for intuitive navigation and interaction.
+- **Dynamic Content Management**: Easily update and manage website content through a user-friendly interface.
+- **Responsive Design**: Built with Bootstrap to ensure a seamless experience on mobile, tablet, and desktop devices.
+- **Scalable Backend**: Utilizes Flask to provide a robust and scalable server-side application.
+- **User Authentication**: Secure login and registration system for members.
+- **Event Management**: Comprehensive event listing and registration features.
 
-## Installation
+## Setup and Installation
 
-To set up the project locally, follow these steps:
+### Prerequisites
 
-1. **Clone the repository:**
+- Python 3.x
+- Flask
+- Bootstrap
+
+### Installation
+
+1. **Clone the Repository**
 
    ```bash
    git clone https://github.com/yourusername/tamusa_acm_org.git
    cd tamusa_acm_org
    ```
 
-2. **Create a virtual environment:**
+2. **Create a Virtual Environment**
 
    ```bash
    python3 -m venv venv
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
    ```
 
-3. **Install the dependencies:**
+3. **Install Dependencies**
 
    ```bash
    pip install -r requirements.txt
    ```
 
-4. **Run the application:**
+4. **Run the Application**
 
    ```bash
    flask run
    ```
 
-   The website will be accessible at `http://127.0.0.1:5000/`.
+5. **Access the Application**
 
-## Usage
+   Open your web browser and go to `http://127.0.0.1:5000`.
 
-Navigate through the website to explore various sections such as events, resources, and member information. Use the navigation bar to access different pages and the footer for quick links to social media and contact information.
+## Usage Examples
+
+- **Viewing Events**: Navigate to the "Events" section to view upcoming ACM events and register for them.
+- **Joining ACM**: Visit the "Join Us" page to become a member of the TAMUSA ACM chapter.
+- **Contacting Us**: Use the "Contact Us" page for inquiries and support.
 
 ## Contribution Guidelines
 
-We welcome contributions from the community to enhance the website. If you're interested in contributing, please follow these guidelines:
+We welcome contributions from the community! To contribute:
 
-1. Fork the repository and create a new branch for your feature or bug fix.
-2. Ensure your code adheres to the project's coding standards and is well-documented.
-3. Submit a pull request with a detailed description of your changes.
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Commit your changes with descriptive messages.
+4. Push your changes to your fork.
+5. Open a pull request with a detailed description of your changes.
+
+Please ensure all contributions adhere to the project's coding standards and include relevant tests where applicable.
 
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
----
-
-Feel free to reach out if you have any questions or need further assistance. Thank you for your interest in contributing to the TAMUSA ACM Chapter website!
 ```
-
-Make sure to replace `https://github.com/yourusername/tamusa_acm_org.git` with the actual URL of your repository. Additionally, ensure that the `LICENSE` file is included in your repository if you mention it in the README.
