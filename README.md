@@ -1,77 +1,59 @@
 ```markdown
-# tamusa_acm_org
+# TAMUSA ACM Official Website
 
-Official website for the TAMUSA ACM chapter, built with Flask and Bootstrap for a dynamic, responsive UI and scalable backend.
-
-## Project Overview
-
-The `tamusa_acm_org` repository hosts the official website for the Texas A&M University-San Antonio ACM chapter. This web application is designed to provide an engaging, user-friendly platform for students and faculty to access information about ACM events, resources, and membership. The application leverages Flask for its backend and Bootstrap for a modern, responsive UI, ensuring compatibility across various devices and screen sizes.
+Welcome to the official repository for the TAMUSA ACM website. This project is built using Flask and Bootstrap to deliver a responsive user interface and a scalable backend. It is designed to manage dynamic content efficiently, making it a robust solution for our organization’s digital presence.
 
 ## Features
 
-- **Dynamic Content Management**: Easily update and manage website content through a user-friendly interface.
-- **Responsive Design**: Built with Bootstrap to ensure a seamless experience on mobile, tablet, and desktop devices.
-- **Scalable Backend**: Utilizes Flask to provide a robust and scalable server-side application.
-- **User Authentication**: Secure login and registration system for members.
-- **Event Management**: Comprehensive event listing and registration features.
+- **Responsive UI:** Built with Bootstrap to ensure a seamless experience across all devices.
+- **Scalable Backend:** Utilizes Flask to handle dynamic content management efficiently.
+- **Multi-language Support:** Built-in support for multiple programming languages including Bash, C, Python, and Go.
+- **Version Control:** Integrated with Git and GitHub for streamlined version management.
+- **Comprehensive Documentation:** Written in Markdown for clarity and ease of use.
 
 ## Setup and Installation
 
-### Prerequisites
+To set up the project locally, please follow these steps:
 
-- Python 3.x
-- Flask
-- Bootstrap
-
-### Installation
-
-1. **Clone the Repository**
-
+1. **Clone the repository:**
    ```bash
    git clone https://github.com/yourusername/tamusa_acm_org.git
    cd tamusa_acm_org
    ```
 
-2. **Create a Virtual Environment**
-
+2. **Create a virtual environment:**
    ```bash
    python3 -m venv venv
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
    ```
 
-3. **Install Dependencies**
-
+3. **Install the required packages:**
    ```bash
    pip install -r requirements.txt
    ```
 
-4. **Run the Application**
-
+4. **Run the application:**
    ```bash
    flask run
    ```
 
-5. **Access the Application**
+Your application should now be running on `http://127.0.0.1:5000/`.
 
-   Open your web browser and go to `http://127.0.0.1:5000`.
+## Usage
 
-## Usage Examples
-
-- **Viewing Events**: Navigate to the "Events" section to view upcoming ACM events and register for them.
-- **Joining ACM**: Visit the "Join Us" page to become a member of the TAMUSA ACM chapter.
-- **Contacting Us**: Use the "Contact Us" page for inquiries and support.
+Once the application is running, you can navigate to the local server address in your web browser to interact with the website. Use the admin panel to manage dynamic content and update the site as needed.
 
 ## Contribution Guidelines
 
-We welcome contributions from the community! To contribute:
+We welcome contributions from the community. To contribute:
 
 1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Commit your changes with descriptive messages.
+2. Create a new branch for your feature or bugfix.
+3. Commit your changes with clear and descriptive messages.
 4. Push your changes to your fork.
-5. Open a pull request with a detailed description of your changes.
+5. Submit a pull request to the main repository.
 
-Please ensure all contributions adhere to the project's coding standards and include relevant tests where applicable.
+Please ensure your code adheres to the existing style and passes all tests.
 
 ## License
 
