@@ -1,61 +1,64 @@
 ```markdown
 # TAMUSA ACM Official Website
 
-Welcome to the official repository for the TAMUSA ACM website. This project is built using Flask and Bootstrap to deliver a responsive user interface and a scalable backend. It is designed to manage dynamic content efficiently, making it a robust solution for our organization’s digital presence.
+Welcome to the official repository for the TAMUSA ACM website! This project is a dynamic and responsive web application built using Flask and Bootstrap, designed to serve the Texas A&M University-San Antonio ACM community. The website features a scalable backend, multi-language support, and seamless Git integration.
 
 ## Features
 
-- **Responsive UI:** Built with Bootstrap to ensure a seamless experience across all devices.
-- **Scalable Backend:** Utilizes Flask to handle dynamic content management efficiently.
-- **Multi-language Support:** Built-in support for multiple programming languages including Bash, C, Python, and Go.
-- **Version Control:** Integrated with Git and GitHub for streamlined version management.
-- **Comprehensive Documentation:** Written in Markdown for clarity and ease of use.
+- **Responsive UI**: Built with Bootstrap for a mobile-first design.
+- **Scalable Backend**: Developed using Flask to handle various web services efficiently.
+- **Multi-language Support**: Offers content in multiple languages for a diverse user base.
+- **Git Integration**: Facilitates easy version control and collaboration.
+- **Microservices Architecture**: Modular design for easy maintenance and scalability.
 
 ## Setup and Installation
 
-To set up the project locally, please follow these steps:
+To set up the project locally, follow these steps:
 
-1. **Clone the repository:**
+1. **Clone the repository**:
    ```bash
    git clone https://github.com/yourusername/tamusa_acm_org.git
    cd tamusa_acm_org
    ```
 
-2. **Create a virtual environment:**
+2. **Create a virtual environment**:
    ```bash
    python3 -m venv venv
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
    ```
 
-3. **Install the required packages:**
+3. **Install dependencies**:
    ```bash
    pip install -r requirements.txt
    ```
 
-4. **Run the application:**
+4. **Run the application**:
    ```bash
    flask run
    ```
 
-Your application should now be running on `http://127.0.0.1:5000/`.
+Visit `http://127.0.0.1:5000` in your web browser to see the application in action.
 
 ## Usage
 
-Once the application is running, you can navigate to the local server address in your web browser to interact with the website. Use the admin panel to manage dynamic content and update the site as needed.
+This website is intended to serve the TAMUSA ACM community by providing information on events, resources, and membership. Users can explore the site to learn more about the ACM chapter, view upcoming events, and access resources.
 
-## Contribution Guidelines
+## Contribution
 
-We welcome contributions from the community. To contribute:
+We welcome contributions from the community! To contribute:
 
 1. Fork the repository.
-2. Create a new branch for your feature or bugfix.
-3. Commit your changes with clear and descriptive messages.
-4. Push your changes to your fork.
-5. Submit a pull request to the main repository.
+2. Create a new feature branch.
+3. Commit your changes.
+4. Open a pull request with a detailed description of your changes.
 
-Please ensure your code adheres to the existing style and passes all tests.
+Please ensure your code follows the project's coding standards and includes necessary documentation.
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+This project is licensed under the MIT License. For more details, please refer to the [LICENSE](./LICENSE) file.
+
+---
+
+Thank you for visiting the TAMUSA ACM Official Website repository. We hope you find this project useful and engaging!
 ```
